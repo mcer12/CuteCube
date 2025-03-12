@@ -5,6 +5,9 @@ This is a little cube toy with leds that changes color depending on which side i
 
 ## Important notes
 - you can use BMI055 or BMI088, make sure to select correct one in the sketch as they have different instruction sets
+- Use my fork of the libraries to allow low power (gyro sleep):  
+BMI088: https://github.com/mcer12/bmi088-arduino  
+BMI055: https://github.com/mcer12/FastIMU  
 - If you want to enable easy flashing via USB (serial), you need to set nBOOT_SEL fuse to 0: BOOT0 signal is defined by BOOT0 pin value (legacy mode)
 - Forgive the code quality, it was a quick arduino project, not meant to be published and I'm NOT cleaning that up :D
 
