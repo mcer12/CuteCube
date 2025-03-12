@@ -1,9 +1,10 @@
 ## About the project
-This is a little cube toy with leds that changes color depending on which side it's laid on. It uses accelerometer to detect orientation and if you shake it, it does a random color animation. With 350mAh battery it lasts for about 2 weeks depending on use.  
+This is a little cube toy with leds that changes color depending on which side it's laid on. Kids love it and it can be used for decision making (just kidding), desk games etc. It uses accelerometer to detect orientation and if you shake it, it does a random color animation. With 350mAh battery it lasts for about 2 weeks depending on use.  
 
 ![alt text](https://raw.githubusercontent.com/mcer12/CuteCube/refs/heads/main/Images/showcase.gif)
 
 ## Important notes
+- Letting toddlers play with this is at your own risk!
 - you can use BMI055 or BMI088, make sure to select correct one in the sketch as they have different instruction sets
 - Use my fork of the libraries to allow low power (gyro sleep):  
 BMI088: https://github.com/mcer12/bmi088-arduino  
